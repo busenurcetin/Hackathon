@@ -129,10 +129,10 @@ export default function LandingPage() {
                 <CardHeader className="bg-green-600 text-white">
                   <CardTitle className="flex items-center gap-2">
                     <LogIn className="h-5 w-5" />
-                    Güvenli Giriş
+                    Giriş
                   </CardTitle>
                   <CardDescription className="text-green-100">
-                    Hesabınıza güvenli giriş yapın ve dayanışma ağımıza katılın
+                    Hesabınıza giriş yapın ve dayanışma ağımıza katılın
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -203,13 +203,6 @@ export default function LandingPage() {
                       {isLoading ? "Giriş yapılıyor..." : "Güvenli Giriş Yap"}
                     </Button>
                   </form>
-
-                  {/* Güvenlik Bilgisi */}
-                  <div className="mt-4 p-3 bg-green-50 rounded-lg border border-green-200">
-                    <p className="text-xs text-green-700 text-center">
-                      🔒 Giriş bilgileriniz güvenli cookie teknolojisi ile korunmaktadır
-                    </p>
-                  </div>
 
                   {/* Kayıt Linki */}
                   <div className="mt-6 text-center">
