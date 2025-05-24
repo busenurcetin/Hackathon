@@ -200,7 +200,7 @@ export default function LandingPage() {
                       className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold"
                       disabled={isLoading}
                     >
-                      {isLoading ? "Giriş yapılıyor..." : "Güvenli Giriş Yap"}
+                      {isLoading ? "Giriş yapılıyor..." : "Giriş Yap"}
                     </Button>
                   </form>
 
