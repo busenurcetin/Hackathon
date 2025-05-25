@@ -1,30 +1,94 @@
-# Deprem dayanisma arayuz
+# Deprem Dayanışma Ağı
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+## 🫂 Proje Hakkında
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/buse-nurs-projects/v0-deprem-dayanisma-arayuz)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/Z43igQ64GtV)
+**Deprem Dayanışma Ağı**, afet zamanlarında ihtiyaç sahipleri ile gönüllüleri ve destekçileri bir araya getirmeyi amaçlayan açık kaynaklı bir web uygulamasıdır. Bu platform, iletişimi kolaylaştırmak, bilgi akışını hızlandırmak ve dayanışmayı güçlendirmek amacıyla geliştirilmiştir.
 
-## Overview
+## 🚀 Özellikler
 
-This repository will stay i n sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- 👥 Kullanıcı kayıt ve giriş sistemi
+- 📍 Konuma dayalı yardım talepleri
+- 🧾 Yardım ilanı oluşturma ve görüntüleme
+- ✅ Gönüllü olarak destek sağlama
+- 🌐 Mobil uyumlu, erişilebilir tasarım
 
-## Deployment
+## 🔧 Kullanılan Teknolojiler
 
-Your project is live at:
+- **React**
+- **Next.js**
+- **TypeScript**
+- **TailwindCSS**
+- **Node.js**
 
-**[https://vercel.com/buse-nurs-projects/v0-deprem-dayanisma-arayuz](https://vercel.com/buse-nurs-projects/v0-deprem-dayanisma-arayuz)**
+## 📦 Kurulum
 
-## Build your app
+1. Depoyu klonla:
+   git clone https://github.com/busenurcetin/Hackathon.git
 
-Continue building your app on:
+2. Dizine gir:
+cd deprem-dayanisma-agi
 
-**[https://v0.dev/chat/projects/Z43igQ64GtV](https://v0.dev/chat/projects/Z43igQ64GtV)**
+4. Gerekli paketleri yükle:
+sudo npm i --legacy-peer-deps
 
-## How It Works
+5. Geliştirme modunda başlat:
+npm run dev
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+6. Uygulama genellikle şu adreste çalışır:
+http://localhost:3000
+
+
+## Nasıl Çalışır
+
+1. Projenizi v0.dev üzerinden oluşturun ve düzenleyin
+
+2. Sohbetlerinizi v0 arayüzünden yayınlayın
+
+3. Yapılan değişiklikler otomatik olarak bu depoya aktarılır
+
+4. Vercel, bu depodaki en son sürümü otomatik olarak dağıtır
+
+
+
+## 📁 Proje Yapısı
+
+📦 app/
+
+📦 components/
+
+📦 hooks/
+
+📦 lib/
+
+📦 node_modules/
+
+📦 public/
+
+📦 styles/
+
+📄 README.md
+
+📄 .gitignore
+
+📄 components.json
+
+📄 next-env-d.ts
+
+📄 next.config.mjs
+
+📄 package-lock.json
+
+📄 package.json
+
+📄 pnpm-lock.yaml
+
+📄 postcss.config.mjs
+
+📄 tailwind.config.ts
+
+📄 tsconfig.json
+
+## 🤝 Katkı Sağlamak
+
+Katkıda bulunmak isterseniz PR (Pull Request) gönderebilir, hata bildiriminde bulunabilir veya öneri sunabilirsiniz. Her türlü katkı memnuniyetle karşılanır.
+Bu proje, dayanışmayı büyütmek ve yardımlaşmayı kolaylaştırmak için geliştirilmiştir. Katkılarınızla daha da güçlenebilir 💚
