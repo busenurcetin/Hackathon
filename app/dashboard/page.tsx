@@ -20,7 +20,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import { Heart, Plus, Home, Package, User, Settings, LogOut, Edit, Trash2, Shield } from "lucide-react"
+import { Heart, Plus, Home, Package, User, Settings, LogOut, Edit, Trash2, Shield, Car, Users } from "lucide-react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { authService } from "@/lib/auth"
@@ -83,9 +83,19 @@ function AppSidebar() {
       icon: Home,
     },
     {
-      title: "Hizmetlerim",
-      url: "/dashboard/hizmetlerim",
-      icon: Package,
+      title: "Yardım Toplama Sayfası",
+      url: "/yardim-toplama-sayfasi",
+      icon: Heart,
+    },
+    {
+      title: "Araç Sayfası",
+      url: "/arac-sayfasi",
+      icon: Car,
+    },
+    {
+      title: "Genel Talepler",
+      url: "/genel-talepler",
+      icon: Users,
     },
     {
       title: "Profil",
